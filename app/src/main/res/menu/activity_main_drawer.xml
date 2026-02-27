@@ -2,19 +2,49 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
-
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/nav_new_group"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Новая группа" />
+
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_new_chat"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="Новый секретный чат" />
+
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_create_channel"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Создать канал" />
     </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_contacts"
+                android:icon="@android:drawable/ic_menu_my_calendar"
+                android:title="Контакты" />
+
+            <item
+                android:id="@+id/nav_favorites"
+                android:icon="@android:drawable/ic_menu_compass"
+                android:title="Избранное" />
+
+            <item
+                android:id="@+id/nav_calls"
+                android:icon="@android:drawable/ic_menu_call"
+                android:title="Звонки" />
+
+            <item
+                android:id="@+id/nav_invite_friends"
+                android:icon="@android:drawable/ic_menu_add"
+                android:title="Пригласить друзей" />
+
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Настройки" />
+        </menu>
+    </item>
 </menu>
