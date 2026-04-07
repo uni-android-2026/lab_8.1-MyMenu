@@ -14,7 +14,7 @@ import su.ioplock.mymenu.databinding.FragmentMenuSectionBinding;
 public class MenuSectionFragment extends Fragment {
 
     private static final String ARG_SECTION_TITLE_RES_ID = "sectionTitleResId";
-    private static final String ARG_SECTION_DESCRIPTION_RES_ID = "sectionDescriptionResId";
+    private static final String ARG_SECTION_ICON_RES_ID = "sectionIconResId";
 
     private FragmentMenuSectionBinding binding;
 
@@ -27,12 +27,13 @@ public class MenuSectionFragment extends Fragment {
         int titleResId = args != null
                 ? args.getInt(ARG_SECTION_TITLE_RES_ID, R.string.app_name)
                 : R.string.app_name;
-        int descriptionResId = args != null
-                ? args.getInt(ARG_SECTION_DESCRIPTION_RES_ID, R.string.app_name)
-                : R.string.app_name;
+        int iconResId = args != null
+                ? args.getInt(ARG_SECTION_ICON_RES_ID, android.R.drawable.sym_def_app_icon)
+                : android.R.drawable.sym_def_app_icon;
 
-        binding.sectionTitle.setText(titleResId);
-        binding.sectionDescription.setText(descriptionResId);
+        binding.sectionImage.setImageResource(iconResId);
+        binding.sectionImage.setContentDescription(getString(titleResId));
+        binding.sectionCaption.setText(titleResId);
 
         return binding.getRoot();
     }

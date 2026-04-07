@@ -14,13 +14,4 @@
     <string name="menu_calls">Звонки</string>
     <string name="menu_invite_friends">Пригласить друзей</string>
     <string name="menu_settings">Настройки</string>
-
-    <string name="screen_new_group">Экран для создания новой группы.</string>
-    <string name="screen_new_chat">Экран для запуска нового секретного чата.</string>
-    <string name="screen_create_channel">Экран для создания нового канала.</string>
-    <string name="screen_contacts">Экран со списком контактов.</string>
-    <string name="screen_favorites">Экран с избранными элементами.</string>
-    <string name="screen_calls">Экран истории звонков.</string>
-    <string name="screen_invite_friends">Экран приглашения друзей.</string>
-    <string name="screen_settings">Экран настроек приложения.</string>
 </resources>

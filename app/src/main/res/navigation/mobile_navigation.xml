@@ -15,8 +15,8 @@
             android:defaultValue="@string/menu_new_group"
             app:argType="reference" />
         <argument
-            android:name="sectionDescriptionResId"
-            android:defaultValue="@string/screen_new_group"
+            android:name="sectionIconResId"
+            android:defaultValue="@android:drawable/ic_menu_myplaces"
             app:argType="reference" />
     </fragment>
 
@@ -30,8 +30,8 @@
             android:defaultValue="@string/menu_new_chat"
             app:argType="reference" />
         <argument
-            android:name="sectionDescriptionResId"
-            android:defaultValue="@string/screen_new_chat"
+            android:name="sectionIconResId"
+            android:defaultValue="@android:drawable/ic_menu_send"
             app:argType="reference" />
     </fragment>
 
@@ -45,8 +45,8 @@
             android:defaultValue="@string/menu_create_channel"
             app:argType="reference" />
         <argument
-            android:name="sectionDescriptionResId"
-            android:defaultValue="@string/screen_create_channel"
+            android:name="sectionIconResId"
+            android:defaultValue="@android:drawable/ic_menu_edit"
             app:argType="reference" />
     </fragment>
 
@@ -60,8 +60,8 @@
             android:defaultValue="@string/menu_contacts"
             app:argType="reference" />
         <argument
-            android:name="sectionDescriptionResId"
-            android:defaultValue="@string/screen_contacts"
+            android:name="sectionIconResId"
+            android:defaultValue="@android:drawable/ic_menu_my_calendar"
             app:argType="reference" />
     </fragment>
 
@@ -75,8 +75,8 @@
             android:defaultValue="@string/menu_favorites"
             app:argType="reference" />
         <argument
-            android:name="sectionDescriptionResId"
-            android:defaultValue="@string/screen_favorites"
+            android:name="sectionIconResId"
+            android:defaultValue="@android:drawable/ic_menu_compass"
             app:argType="reference" />
     </fragment>
 
@@ -90,8 +90,8 @@
             android:defaultValue="@string/menu_calls"
             app:argType="reference" />
         <argument
-            android:name="sectionDescriptionResId"
-            android:defaultValue="@string/screen_calls"
+            android:name="sectionIconResId"
+            android:defaultValue="@android:drawable/ic_menu_call"
             app:argType="reference" />
     </fragment>
 
@@ -105,8 +105,8 @@
             android:defaultValue="@string/menu_invite_friends"
             app:argType="reference" />
         <argument
-            android:name="sectionDescriptionResId"
-            android:defaultValue="@string/screen_invite_friends"
+            android:name="sectionIconResId"
+            android:defaultValue="@android:drawable/ic_menu_add"
             app:argType="reference" />
     </fragment>
 
@@ -120,8 +120,8 @@
             android:defaultValue="@string/menu_settings"
             app:argType="reference" />
         <argument
-            android:name="sectionDescriptionResId"
-            android:defaultValue="@string/screen_settings"
+            android:name="sectionIconResId"
+            android:defaultValue="@android:drawable/ic_menu_manage"
             app:argType="reference" />
     </fragment>
 </navigation>
