@@ -3,23 +3,125 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_contacts">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="su.ioplock.mymenu.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_new_group"
+        android:name="su.ioplock.mymenu.ui.menu.MenuSectionFragment"
+        android:label="@string/menu_new_group"
+        tools:layout="@layout/fragment_menu_section">
+        <argument
+            android:name="sectionTitleResId"
+            android:defaultValue="@string/menu_new_group"
+            app:argType="reference" />
+        <argument
+            android:name="sectionDescriptionResId"
+            android:defaultValue="@string/screen_new_group"
+            app:argType="reference" />
+    </fragment>
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="su.ioplock.mymenu.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_new_chat"
+        android:name="su.ioplock.mymenu.ui.menu.MenuSectionFragment"
+        android:label="@string/menu_new_chat"
+        tools:layout="@layout/fragment_menu_section">
+        <argument
+            android:name="sectionTitleResId"
+            android:defaultValue="@string/menu_new_chat"
+            app:argType="reference" />
+        <argument
+            android:name="sectionDescriptionResId"
+            android:defaultValue="@string/screen_new_chat"
+            app:argType="reference" />
+    </fragment>
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="su.ioplock.mymenu.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_create_channel"
+        android:name="su.ioplock.mymenu.ui.menu.MenuSectionFragment"
+        android:label="@string/menu_create_channel"
+        tools:layout="@layout/fragment_menu_section">
+        <argument
+            android:name="sectionTitleResId"
+            android:defaultValue="@string/menu_create_channel"
+            app:argType="reference" />
+        <argument
+            android:name="sectionDescriptionResId"
+            android:defaultValue="@string/screen_create_channel"
+            app:argType="reference" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_contacts"
+        android:name="su.ioplock.mymenu.ui.menu.MenuSectionFragment"
+        android:label="@string/menu_contacts"
+        tools:layout="@layout/fragment_menu_section">
+        <argument
+            android:name="sectionTitleResId"
+            android:defaultValue="@string/menu_contacts"
+            app:argType="reference" />
+        <argument
+            android:name="sectionDescriptionResId"
+            android:defaultValue="@string/screen_contacts"
+            app:argType="reference" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_favorites"
+        android:name="su.ioplock.mymenu.ui.menu.MenuSectionFragment"
+        android:label="@string/menu_favorites"
+        tools:layout="@layout/fragment_menu_section">
+        <argument
+            android:name="sectionTitleResId"
+            android:defaultValue="@string/menu_favorites"
+            app:argType="reference" />
+        <argument
+            android:name="sectionDescriptionResId"
+            android:defaultValue="@string/screen_favorites"
+            app:argType="reference" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_calls"
+        android:name="su.ioplock.mymenu.ui.menu.MenuSectionFragment"
+        android:label="@string/menu_calls"
+        tools:layout="@layout/fragment_menu_section">
+        <argument
+            android:name="sectionTitleResId"
+            android:defaultValue="@string/menu_calls"
+            app:argType="reference" />
+        <argument
+            android:name="sectionDescriptionResId"
+            android:defaultValue="@string/screen_calls"
+            app:argType="reference" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_invite_friends"
+        android:name="su.ioplock.mymenu.ui.menu.MenuSectionFragment"
+        android:label="@string/menu_invite_friends"
+        tools:layout="@layout/fragment_menu_section">
+        <argument
+            android:name="sectionTitleResId"
+            android:defaultValue="@string/menu_invite_friends"
+            app:argType="reference" />
+        <argument
+            android:name="sectionDescriptionResId"
+            android:defaultValue="@string/screen_invite_friends"
+            app:argType="reference" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="su.ioplock.mymenu.ui.menu.MenuSectionFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_menu_section">
+        <argument
+            android:name="sectionTitleResId"
+            android:defaultValue="@string/menu_settings"
+            app:argType="reference" />
+        <argument
+            android:name="sectionDescriptionResId"
+            android:defaultValue="@string/screen_settings"
+            app:argType="reference" />
+    </fragment>
 </navigation>
