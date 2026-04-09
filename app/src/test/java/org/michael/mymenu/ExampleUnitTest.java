@@ -1,4 +1,4 @@
-package su.ioplock.mymenu;
+package org.michael.mymenu;
 
 import org.junit.Test;
 

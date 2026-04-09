@@ -1,4 +1,4 @@
-package su.ioplock.mymenu;
+package org.michael.mymenu;
 
 import android.os.Bundle;
 import com.google.android.material.navigation.NavigationView;
@@ -10,7 +10,7 @@ import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
-import su.ioplock.mymenu.databinding.ActivityMainBinding;
+import org.michael.mymenu.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 

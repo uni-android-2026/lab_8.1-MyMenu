@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "su.ioplock.mymenu"
+    namespace = "org.michael.mymenu"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "su.ioplock.mymenu"
+        applicationId = "org.michael.mymenu"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

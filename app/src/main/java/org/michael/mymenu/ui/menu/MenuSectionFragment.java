@@ -1,4 +1,4 @@
-package su.ioplock.mymenu.ui.menu;
+package org.michael.mymenu.ui.menu;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import su.ioplock.mymenu.R;
-import su.ioplock.mymenu.databinding.FragmentMenuSectionBinding;
+import org.michael.mymenu.R;
+import org.michael.mymenu.databinding.FragmentMenuSectionBinding;
 
 public class MenuSectionFragment extends Fragment {
 

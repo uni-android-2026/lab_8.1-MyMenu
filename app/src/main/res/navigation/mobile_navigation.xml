@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/nav_new_group"
-        android:name="su.ioplock.mymenu.ui.menu.MenuSectionFragment"
+        android:name="org.michael.mymenu.ui.menu.MenuSectionFragment"
         android:label="@string/menu_new_group"
         tools:layout="@layout/fragment_menu_section">
         <argument
@@ -22,7 +22,7 @@
 
     <fragment
         android:id="@+id/nav_new_chat"
-        android:name="su.ioplock.mymenu.ui.menu.MenuSectionFragment"
+        android:name="org.michael.mymenu.ui.menu.MenuSectionFragment"
         android:label="@string/menu_new_chat"
         tools:layout="@layout/fragment_menu_section">
         <argument
@@ -37,7 +37,7 @@
 
     <fragment
         android:id="@+id/nav_create_channel"
-        android:name="su.ioplock.mymenu.ui.menu.MenuSectionFragment"
+        android:name="org.michael.mymenu.ui.menu.MenuSectionFragment"
         android:label="@string/menu_create_channel"
         tools:layout="@layout/fragment_menu_section">
         <argument
@@ -52,7 +52,7 @@
 
     <fragment
         android:id="@+id/nav_contacts"
-        android:name="su.ioplock.mymenu.ui.menu.MenuSectionFragment"
+        android:name="org.michael.mymenu.ui.menu.MenuSectionFragment"
         android:label="@string/menu_contacts"
         tools:layout="@layout/fragment_menu_section">
         <argument
@@ -67,7 +67,7 @@
 
     <fragment
         android:id="@+id/nav_favorites"
-        android:name="su.ioplock.mymenu.ui.menu.MenuSectionFragment"
+        android:name="org.michael.mymenu.ui.menu.MenuSectionFragment"
         android:label="@string/menu_favorites"
         tools:layout="@layout/fragment_menu_section">
         <argument
@@ -82,7 +82,7 @@
 
     <fragment
         android:id="@+id/nav_calls"
-        android:name="su.ioplock.mymenu.ui.menu.MenuSectionFragment"
+        android:name="org.michael.mymenu.ui.menu.MenuSectionFragment"
         android:label="@string/menu_calls"
         tools:layout="@layout/fragment_menu_section">
         <argument
@@ -97,7 +97,7 @@
 
     <fragment
         android:id="@+id/nav_invite_friends"
-        android:name="su.ioplock.mymenu.ui.menu.MenuSectionFragment"
+        android:name="org.michael.mymenu.ui.menu.MenuSectionFragment"
         android:label="@string/menu_invite_friends"
         tools:layout="@layout/fragment_menu_section">
         <argument
@@ -112,7 +112,7 @@
 
     <fragment
         android:id="@+id/nav_settings"
-        android:name="su.ioplock.mymenu.ui.menu.MenuSectionFragment"
+        android:name="org.michael.mymenu.ui.menu.MenuSectionFragment"
         android:label="@string/menu_settings"
         tools:layout="@layout/fragment_menu_section">
         <argument
